@@ -18,3 +18,5 @@ use Illuminate\Support\Facades\Route;
 //     return view('index');
 // });
 Route::get('/', [PageController::class, 'index']);
+
+Route::get('/about', [PageController::class, 'about']);
