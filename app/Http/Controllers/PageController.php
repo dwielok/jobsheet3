@@ -20,4 +20,9 @@ class PageController extends Controller
     {
         return view('testmonial');
     }
+
+    public function clients()
+    {
+        return view('clients');
+    }
 }

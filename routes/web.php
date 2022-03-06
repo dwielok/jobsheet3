@@ -22,3 +22,5 @@ Route::get('/', [PageController::class, 'index']);
 Route::get('/about', [PageController::class, 'about']);
 
 Route::get('/testmonial', [PageController::class, 'testmonial']);
+
+Route::get('/clients', [PageController::class, 'clients']);
